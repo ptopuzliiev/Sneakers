@@ -1,0 +1,36 @@
+.header {
+  padding: 44px 60px;
+  border-bottom: 1px solid #eaeaea;
+  @media screen and (max-width: 1024px) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  @media screen and (max-width: 767px) {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-direction: column;
+  }
+}
+
+.header__item {
+  display: flex;
+  align-items: center;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.header__price {
+  margin-left: 10px;
+}
+
+.header__logo {
+  @media screen and (max-width: 767px) {
+    max-width: 150px;
+    margin-bottom: 10px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
