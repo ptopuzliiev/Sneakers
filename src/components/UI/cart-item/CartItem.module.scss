@@ -1,0 +1,30 @@
+.item {
+  padding: 20px;
+  border: 1px solid #f3f3f3;
+  border-radius: 20px;
+}
+
+.price,
+.text {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.text {
+  margin-bottom: 8px;
+}
+
+.closeCart {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  margin: 0;
+  border-radius: 8px;
+  background-color: transparent;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+
+  &:hover {
+    opacity: 1;
+  }
+}

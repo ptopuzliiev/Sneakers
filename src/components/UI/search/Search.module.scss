@@ -1,0 +1,25 @@
+.search {
+  position: relative;
+  max-width: 250px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 16px 10px 46px;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: 'Inter', sans-serif;
+  height: 45px;
+  border: 1px solid #f3f3f3;
+  border-radius: 10px;
+  &::placeholder {
+    color: #c4c4c4;
+  }
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 18px;
+  transform: translateY(-50%);
+}

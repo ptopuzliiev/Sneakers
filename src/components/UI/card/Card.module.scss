@@ -13,7 +13,7 @@
   }
 }
 
-.card__button {
+.plus {
   background: #ffffff;
   border-radius: 8px;
   width: 32px;
@@ -22,16 +22,18 @@
   margin: 0;
 }
 
-.card__text {
-  font-weight: 400;
+.text {
+  margin-bottom: 15px;
 }
 
-.card__text,
-.card__price {
+.text,
+.price {
   font-size: 14px;
+  line-height: 16px;
 }
 
-.card__subtext {
+.subText {
+  display: block;
   font-size: 11px;
   line-height: 13px;
   font-weight: 500;
@@ -39,7 +41,7 @@
   color: #bdbdbd;
 }
 
-.card__favorite {
+.favorite {
   position: absolute;
   top: 30px;
   left: 25px;
